@@ -244,6 +244,51 @@
 - Retrieval & Interaction Machine for Tabular Data Prediction
 - A Multi-Graph Attributed Reinforcement Learning Based Optimization Algorithm for Large-scale Hybrid Flow Shop Scheduling Problem
 
+User - User
+
+- Who to follow
+- When an user follows another, are they interested in all the contnet from that user?
+
+User - Item
+
+-  Home timeline
+- What is right training objective: CTR, fav, reply, retweet, DAU/MAU
+
+Item - Item (similarity and diversity)
+
+- Tweet - tweet similarity
+- Trend - Trends similarity (use case is folding) more recent = less engagement
+
+What is an item at Twitter referred to as content
+
+- tweets
+- events/moments
+- trends
+- live video / broadcasts
+
+User intests will vary over time
+
+- long term interests
+- short term interests
+- geo-dependant interests/happendings
+- privacy and control is extremely important
+- striking the right balance betwen the is key, geo-dependant flavor
+
+Metrics
+
+- Coverage: given the large and even changing catalog of content/items, gettign high coverage with low latency is oxymoronic
+
+- Diversity
+
+- Utility: if glancing the items may have enough utility to inform the user without clicking on it. how to factor into an objective function for training
+
+- Adaptability: given ever changing world of content, how fast can the system adapt? how does system adapt to users with low engagement(new/light) vs heavy users?
+
+- Scalability: For billions of users across the globe, with unique habits and preferences
+
+- User Preference: Handlign explicti interests and learned itnerests together in one ranking framework
+
+
 ## Tensorflow
 
 Tensorflow教程(tensorflow.org)
